@@ -11,7 +11,7 @@ body {
 }
 header {
     min-height: 100px;
-    border: 1px dashed black;
+    border: 1px dashed black; /*momentanea */
 }
 .header-button {
     display: inline-block;
@@ -32,10 +32,15 @@ main {
 }
 #container {
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 500px;
 }
 .container-item {
-    
+    flex-basis: 20%;
+    border: 1px dashed black; /*momentanea */
+    padding: 10px;
 }
 footer {
     min-height: 100px;
